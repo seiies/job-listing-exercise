@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobItem renders correctly 1`] = `
+<React.Fragment>
+  <JSXStyle
+    css=".job.jsx-3219546763{margin-bottom:1em;}.job.jsx-3219546763:last-child{margin-bottom:0;}.block.jsx-3219546763{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;padding:1rem;}.blockImg.jsx-3219546763{width:6.25rem;margin:0 1rem 0 0;}.blockBody.jsx-3219546763{-webkit-flex:1;-ms-flex:1;flex:1;}a.jsx-3219546763{-webkit-text-decoration:none;text-decoration:none;}.jobTitle.jsx-3219546763{font-size:1.5rem;margin-top:0;margin-bottom:.5rem;color:black;}.companyName.jsx-3219546763{margin:0;font-size:.9rem;color:gray;}"
+    styleId="3219546763"
+  />
+  <li
+    className="jsx-3219546763 job"
+  >
+    <Link
+      as="/job/1"
+      href={
+        Object {
+          "pathname": "/job",
+          "query": Object {
+            "id": 1,
+          },
+        }
+      }
+    >
+      <a
+        className="jsx-3219546763"
+        title="Job full description"
+      >
+        <WithStyles(Paper)
+          elevation={3}
+        >
+          <div
+            className="jsx-3219546763 block"
+          >
+            <img
+              alt="Company logo"
+              className="jsx-3219546763 blockImg"
+              src="https://place.cat/c/100/100"
+            />
+            <div
+              className="jsx-3219546763 blockBody"
+            >
+              <h2
+                className="jsx-3219546763 jobTitle"
+              >
+                Job title
+              </h2>
+              <p
+                className="jsx-3219546763 companyName"
+              >
+                Deutsche Bahn AG
+              </p>
+            </div>
+          </div>
+        </WithStyles(Paper)>
+      </a>
+    </Link>
+  </li>
+</React.Fragment>
+`;

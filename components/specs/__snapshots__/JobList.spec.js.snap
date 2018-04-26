@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobList renders correctly with empty job list 1`] = `
+<React.Fragment>
+  <JSXStyle
+    css=".jobs.jsx-3773623910{margin:0;padding:0;list-style:none;}"
+    styleId="3773623910"
+  />
+  <ul
+    className="jsx-3773623910 jobs"
+  >
+    <p
+      className="jsx-3773623910"
+    >
+      No jobs there
+    </p>
+  </ul>
+</React.Fragment>
+`;
+
+exports[`JobList renders correctly with job list 1`] = `
+<React.Fragment>
+  <JSXStyle
+    css=".jobs.jsx-3773623910{margin:0;padding:0;list-style:none;}"
+    styleId="3773623910"
+  />
+  <ul
+    className="jsx-3773623910 jobs"
+  >
+    <JobItem
+      job={
+        Object {
+          "company": "Deutsche Bahn AG",
+          "id": 1,
+          "image": "https://place.cat/c/100/100",
+          "title": "Job title",
+        }
+      }
+      key="0"
+    />
+    <JobItem
+      job={
+        Object {
+          "company": "Deutsche Bahn AG",
+          "id": 2,
+          "image": "https://place.cat/c/100/100",
+          "title": "Job title",
+        }
+      }
+      key="1"
+    />
+  </ul>
+</React.Fragment>
+`;

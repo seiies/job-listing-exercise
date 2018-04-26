@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobDescription renders correctly 1`] = `
+<React.Fragment>
+  <JSXStyle
+    css=".inner.jsx-369923791{padding:2rem;}.back-link.jsx-369923791,.back-link.jsx-369923791:visited{font-size:1.3rem;color:black;-webkit-text-decoration:none;text-decoration:none;}.icon.jsx-369923791{vertical-align:2px;}.full-text.jsx-369923791{line-height:1.4;}"
+    styleId="369923791"
+  />
+  <WithStyles(Paper)
+    className="paper"
+  >
+    <div
+      className="jsx-369923791 inner"
+    >
+      <Link
+        href="/"
+      >
+        <a
+          className="jsx-369923791 back-link"
+        >
+          <span
+            className="jsx-369923791 icon"
+          >
+            ←
+          </span>
+           Back
+        </a>
+      </Link>
+      <main
+        className="jsx-369923791"
+      >
+        <h1
+          className="jsx-369923791"
+        >
+          Job title
+        </h1>
+        <article
+          className="jsx-369923791 full-text"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Get this awesome job",
+            }
+          }
+        />
+      </main>
+    </div>
+  </WithStyles(Paper)>
+</React.Fragment>
+`;

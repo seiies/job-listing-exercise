@@ -1,0 +1,42 @@
+{
+  "name": "job-list-exercise",
+  "version": "1.0.0",
+  "repository": "",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "lint": "npx standard",
+    "start": "npm run build && NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jss": "^9.5.2",
+    "koa": "^2.5.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "material-ui": "^1.0.0-beta.41",
+    "next": "^5.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-jss": "^8.4.0",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "fkill": "^5.3.0",
+    "get-port": "^3.2.0",
+    "jest": "^22.4.3",
+    "react-test-renderer": "^16.3.2",
+    "standard": "^11.0.1",
+    "supertest": "^3.0.0"
+  },
+  "license": "ISC"
+}

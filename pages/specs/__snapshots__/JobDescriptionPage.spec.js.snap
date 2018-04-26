@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`job page renders correctly for the existing job description 1`] = `
+<React.Fragment>
+  <SideEffect(Head)>
+    <title>
+      Job: 
+      Job title
+    </title>
+  </SideEffect(Head)>
+  <Component>
+    <JobDescription
+      job={
+        Object {
+          "html": "something",
+          "title": "Job title",
+        }
+      }
+    />
+  </Component>
+</React.Fragment>
+`;
+
+exports[`job page renders correctly for the wrong id 1`] = `
+<Error
+  statusCode={404}
+/>
+`;

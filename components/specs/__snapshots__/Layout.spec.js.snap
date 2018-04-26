@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly 1`] = `
+<React.Fragment>
+  <JSXStyle
+    css="div.jsx-2768571078{font-family:Roboto,Helvetica,Arial,sans-serif;margin:0 auto;padding:1rem;max-width:50rem;min-width:25rem;}"
+    styleId="2768571078"
+  />
+  <div
+    className="jsx-2768571078"
+  >
+    Children
+  </div>
+</React.Fragment>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index page renders correctly 1`] = `
+<React.Fragment>
+  <SideEffect(Head)>
+    <title>
+      Job listings
+    </title>
+  </SideEffect(Head)>
+  <Component>
+    <h1>
+      Job listings
+    </h1>
+    <JobList
+      jobs={
+        Array [
+          Object {
+            "company": "Deutsche Bahn AG",
+            "id": 1,
+            "image": "https://place.cat/c/100/100",
+            "title": "Job title",
+          },
+          Object {
+            "company": "Deutsche Bahn AG",
+            "id": 2,
+            "image": "https://place.cat/c/100/100",
+            "title": "Job title",
+          },
+        ]
+      }
+    />
+  </Component>
+</React.Fragment>
+`;
